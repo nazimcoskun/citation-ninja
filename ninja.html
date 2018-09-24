@@ -51,7 +51,7 @@
   
           <div v-if="success" class="text-center mb-3">
             <span v-cloak v-if="copied" class="text-dark"><button class="btn btn-link" disabled>Copied!</button></span>
-            <span v-cloak v-else><button class="btn btn-link text-secondary" v-on:click="clipboard('citation')">Copy to Clipboard</button></span>
+            <span v-cloak v-else><button class="btn btn-link text-secondary" v-on:click="copy_citation('citation')">Copy to Clipboard</button></span>
           </div>
   
           <div class="mb-4 pb-4">&nbsp;</div>
